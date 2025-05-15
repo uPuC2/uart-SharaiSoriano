@@ -1,5 +1,5 @@
 #include <avr/io.h>
-#include “UART.h”
+#include "UART.h"
 
 int main( void )
 {
@@ -17,7 +17,7 @@ int main( void )
 
         UART_gotoxy(0,2,2);
         UART_setColor(0,YELLOW);
-        UART_puts(0,"Introduce un número:");
+        UART_puts(0,"Introduce un numero:");
         
         UART_gotoxy(0,22,2);
         UART_setColor(0,GREEN);
